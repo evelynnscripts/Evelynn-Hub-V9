@@ -1,16 +1,3 @@
---[[
-
-Made by Evelynn Scripts
-All rights reserved.
-
-Disclaimer:
-This script is intended for educational and personal use only.
-Please do not use it to violate any game's terms of service or harm other players.
-Respect developers and communities to avoid penalties.
-Thank you for using Evelynn Scripts responsibly!
-
-]]
-
 local ALERT_v97 = game:GetService("TweenService")
 local ALERT_v42 = game:GetService("Players")
 local ALERT_v18 = ALERT_v42.LocalPlayer
@@ -35,8 +22,8 @@ end)
 
 local ALERT_v80 = ALERT_v5(function()
 	local ALERT_v50 = Instance.new("Frame")
-	ALERT_v50.Size = UDim2.new(0, 350, 0, 160)
-	ALERT_v50.Position = UDim2.new(0.5, -175, 0.5, -80)
+	ALERT_v50.Size = UDim2.new(0, 400, 0, 220)
+	ALERT_v50.Position = UDim2.new(0.5, -200, 0.5, -110)
 	ALERT_v50.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	ALERT_v50.BorderSizePixel = 0
 	ALERT_v50.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -75,11 +62,11 @@ end)
 
 ALERT_v5(function()
 	local ALERT_v39 = Instance.new("TextLabel")
-	ALERT_v39.Size = UDim2.new(1, -20, 0, 60)
+	ALERT_v39.Size = UDim2.new(1, -20, 0, 100)
 	ALERT_v39.Position = UDim2.new(0, 10, 0, 50)
 	ALERT_v39.BackgroundTransparency = 1
 	ALERT_v39.TextWrapped = true
-	ALERT_v39.Text = "Evelynn Hub will load in few seconds!\nThere have been may issue that the script isnt working, try re-joining or rebooting the script if\n it doesnt seem to work!\nThank you for using!"
+	ALERT_v39.Text = "Evelynn Hub will load in a few seconds!\nThere have been many issues where the script may not work properly.\nIf that happens, please try rejoining the game or restarting the script.\nThank you for using Evelynn Scripts!"
 	ALERT_v39.Font = Enum.Font.Gotham
 	ALERT_v39.TextSize = 16
 	ALERT_v39.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -90,8 +77,8 @@ end)
 
 local ALERT_vCountdownLabel = ALERT_v5(function()
 	local lbl = Instance.new("TextLabel")
-	lbl.Size = UDim2.new(0, 100, 0, 30)
-	lbl.Position = UDim2.new(0.5, -50, 1, -40)
+	lbl.Size = UDim2.new(0, 120, 0, 30)
+	lbl.Position = UDim2.new(0.5, -60, 1, -35)
 	lbl.BackgroundTransparency = 1
 	lbl.TextColor3 = Color3.fromRGB(255, 255, 255)
 	lbl.Font = Enum.Font.GothamSemibold
@@ -107,7 +94,6 @@ ALERT_v5(function()
 	}):Play()
 end)
 
--- Auto-close after 8 seconds
 ALERT_v5(function()
 	local seconds = 12
 	while seconds > 0 do
@@ -115,8 +101,6 @@ ALERT_v5(function()
 		task.wait(1)
 		seconds -= 1
 	end
-
-	-- Animate and destroy
 	ALERT_v97:Create(ALERT_v80, TweenInfo.new(2, Enum.EasingStyle.Sine, Enum.EasingDirection.In), {
 		BackgroundTransparency = 1
 	}):Play()
