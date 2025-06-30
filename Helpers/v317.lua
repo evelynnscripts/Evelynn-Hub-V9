@@ -64,7 +64,7 @@ ALERT_v5(function()
 	ALERT_v12.Size = UDim2.new(1, -20, 0, 40)
 	ALERT_v12.Position = UDim2.new(0, 10, 0, 10)
 	ALERT_v12.BackgroundTransparency = 1
-	ALERT_v12.Text = "Loading Evelynn Hub..."
+	ALERT_v12.Text = "⚠️ Read Me"
 	ALERT_v12.Font = Enum.Font.GothamBold
 	ALERT_v12.TextSize = 24
 	ALERT_v12.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -79,7 +79,7 @@ ALERT_v5(function()
 	ALERT_v39.Position = UDim2.new(0, 10, 0, 50)
 	ALERT_v39.BackgroundTransparency = 1
 	ALERT_v39.TextWrapped = true
-	ALERT_v39.Text = "Evelynn Hub will load within 60 seconds due to API issues. Please wait patiently.\nIt may load faster depending on what Executor you are using!"
+	ALERT_v39.Text = "Evelynn Hub will load in few seconds!\nThere have been may issue that the script isnt working, try re-joining or rebooting the script if ot doesnt seem to work!\nThank you for using!"
 	ALERT_v39.Font = Enum.Font.Gotham
 	ALERT_v39.TextSize = 16
 	ALERT_v39.TextColor3 = Color3.fromRGB(255, 255, 255)
