@@ -7,5 +7,5 @@ print("v9")
   "config": {
     "v317": "Alert Helper",
     "v782": "Kill-All Helper"
-  }
+}
 ```
