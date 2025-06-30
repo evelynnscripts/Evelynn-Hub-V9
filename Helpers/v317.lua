@@ -64,7 +64,7 @@ ALERT_v5(function()
 	ALERT_v12.Size = UDim2.new(1, -20, 0, 40)
 	ALERT_v12.Position = UDim2.new(0, 10, 0, 10)
 	ALERT_v12.BackgroundTransparency = 1
-	ALERT_v12.Text = "⚠️ Read Me"
+	ALERT_v12.Text = "⚠️ READ ME ⚠️"
 	ALERT_v12.Font = Enum.Font.GothamBold
 	ALERT_v12.TextSize = 24
 	ALERT_v12.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -79,7 +79,7 @@ ALERT_v5(function()
 	ALERT_v39.Position = UDim2.new(0, 10, 0, 50)
 	ALERT_v39.BackgroundTransparency = 1
 	ALERT_v39.TextWrapped = true
-	ALERT_v39.Text = "Evelynn Hub will load in few seconds!\nThere have been may issue that the script isnt working, try re-joining or rebooting the script if ot doesnt seem to work!\nThank you for using!"
+	ALERT_v39.Text = "Evelynn Hub will load in few seconds!\nThere have been may issue that the script isnt working, try re-joining or rebooting the script if\n it doesnt seem to work!\nThank you for using!"
 	ALERT_v39.Font = Enum.Font.Gotham
 	ALERT_v39.TextSize = 16
 	ALERT_v39.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -96,7 +96,7 @@ local ALERT_vCountdownLabel = ALERT_v5(function()
 	lbl.TextColor3 = Color3.fromRGB(255, 255, 255)
 	lbl.Font = Enum.Font.GothamSemibold
 	lbl.TextSize = 14
-	lbl.Text = "Closing in 8..."
+	lbl.Text = "Closing in 12..."
 	lbl.Parent = ALERT_v80
 	return lbl
 end)
@@ -109,7 +109,7 @@ end)
 
 -- Auto-close after 8 seconds
 ALERT_v5(function()
-	local seconds = 8
+	local seconds = 12
 	while seconds > 0 do
 		ALERT_vCountdownLabel.Text = "Closing in " .. seconds .. "..."
 		task.wait(1)
