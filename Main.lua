@@ -191,6 +191,24 @@ v3:CreateToggle({
         _G.AutoKill = Value
     end
 })
+v3:CreateToggle({
+    Name = "Load Separate GUI",
+    CurrentValue = false,
+    Flag = "SeparateGUI",
+    Callback = function(Value)
+        _G.SeparateGUIEnabled = Value
+
+        if Value then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/evelynnscripts/Evelynn-Hub-V9/refs/heads/main/Helpers/v836.lua", true))()
+        else
+            local existingGUI = game:GetService("Players").LocalPlayer:FindFirstChild("PlayerGui"):FindFirstChild("gui")
+            if existingGUI then
+                existingGUI:Destroy()
+            end
+            _G.SeparateLoopKill = false
+        end
+    end
+})
 -- TOGGLES + BUTTONS + SLIDERS FOR 'Credits' TAB
 v4:CreateButton({
    Name = "discord.gg/w7D4W4j27j",
