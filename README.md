@@ -1,7 +1,9 @@
 # Evelynn Hub `V9`
+**Public Use:**
 ```lua
 print("v9")
 ```
+
 **Developer Use:**
 ```json
 {
