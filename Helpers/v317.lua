@@ -25,7 +25,7 @@ end
 
 local ALERT_v24 = ALERT_v5(function()
 	local ALERT_v35 = Instance.new("ScreenGui")
-	ALERT_v35.Name = "gui"
+	ALERT_v35.Name = "ALERET"
 	ALERT_v35.ResetOnSpawn = false
 	ALERT_v35.IgnoreGuiInset = true
 	ALERT_v35.Parent = ALERT_v61
