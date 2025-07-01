@@ -1,8 +1,8 @@
 # Evelynn Hub `V9`
 
 ```md
-Made by Evelynn Scripts
-All rights reserved.
+# Made by Evelynn Scripts
+# All rights reserved.
 
 Disclaimer:
 This script is intended for educational and personal use only.
