@@ -11,5 +11,5 @@ Respect developers and communities to avoid penalties.
 Thank you for using Evelynn Scripts responsibly!
 ```
 ```lua
-print("v9")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/evelynnscripts/Evelynn-Hub-V9/refs/heads/main/Main.lua",true))()
 ```
