@@ -1,5 +1,5 @@
 # 📜 Terms of Service
-
+---
 ## Educational Use Only  
 Evelynn Scripts is made strictly for educational purposes. It is designed to help users learn scripting and game logic. Any misuse of the script is your own responsibility.
 ## Disclaimer
@@ -20,9 +20,7 @@ By using our script, you fully understand and agree to these terms.
 loadstring(game:HttpGet("https://raw.githubusercontent.com/evelynnscripts/Evelynn-Hub-V9/refs/heads/main/Main.lua", true))()
 ```
 
----
-
-## 🔧 Notes
+## Note
 All features work and have been fully tested. Please make a ticket if you catch any bugs.
 This project is written entirely in Luau and JSON.
 If you see anyone falsely claiming Evelynn Hub as their own, please report it immediately.
