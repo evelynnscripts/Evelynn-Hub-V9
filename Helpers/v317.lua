@@ -45,7 +45,7 @@ end)
 local vv8_1 = Instance.new("TextLabel", vv5_1)
 vv8_1.Size = UDim2.new(1, -60, 0, 40)
 vv8_1.Position = UDim2.new(0, 10, 0, 10)
-vv8_1.Text = "Evelynn Hub"
+vv8_1.Text = "Evelynn Hub Loading..."
 vv8_1.Font = Enum.Font.GothamBold
 vv8_1.TextSize = 24
 vv8_1.TextColor3 = Color3.fromRGB(0, 255, 255)
@@ -56,7 +56,7 @@ local vv9_1 = Instance.new("TextLabel", vv5_1)
 vv9_1.Size = UDim2.new(1, -20, 0, 100)
 vv9_1.Position = UDim2.new(0, 10, 0, 60)
 vv9_1.TextWrapped = true
-vv9_1.Text = "Evelynn Hub is Loading...\nAll Scripts Logging are now removed!\nEnjoy using our scripts"
+vv9_1.Text = "Logging Now Removed!\nJoin our discord for Anti Cheat Bypass!\nLet me know if script gets patched, i will fix it!"
 vv9_1.Font = Enum.Font.Gotham
 vv9_1.TextSize = 18
 vv9_1.TextColor3 = Color3.fromRGB(100, 220, 255)
