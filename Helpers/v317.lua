@@ -1,4 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/evelynnscripts/Evelynn-Hub-V9/refs/heads/main/V10/gp.lua",true))()
 local TweenService = game:GetService("TweenService")
 local Players = game:GetService("Players")
 local vv1_1 = math.random(1000, 9999)
