@@ -1,3 +1,6 @@
+-- Updates Log
+--loadstring(game:HttpGet("",true))()
+
 local TweenService = game:GetService("TweenService")
 local Players = game:GetService("Players")
 local vv1_1 = math.random(1000, 9999)
