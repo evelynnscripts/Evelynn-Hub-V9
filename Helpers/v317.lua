@@ -1,5 +1,4 @@
--- Updates Log
---loadstring(game:HttpGet("",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/evelynnscripts/Evelynn-Hub-V9/refs/heads/main/Helpers/global-updates.lua",true))()
 
 local TweenService = game:GetService("TweenService")
 local Players = game:GetService("Players")
