@@ -62,7 +62,9 @@ local updates = {
 	"GLOBAL | Made Loading Screen Better",
 	"GLOBAL | Added Updates Logs",
 	"MVSD   | Added UI Upgrades",
-	"MVSD   | Added Autoshoot v2"
+	"MVSD   | Added Autoshoot v2",
+	"MVSD   | Updated Charms ESP",
+	"MVSD   | Added Custom Gun Sound Effect"
 }
 
 for _, text in ipairs(updates) do
