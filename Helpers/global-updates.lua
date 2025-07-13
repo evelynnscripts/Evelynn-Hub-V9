@@ -61,8 +61,8 @@ layout.Padding = UDim.new(0, 6)
 local updates = {
 	"GLOBAL | Made Loading Screen Better",
 	"GLOBAL | Added Updates Logs",
-	"MVSD   | Added AutoShoot",
-	"MVSD   | Added UI Upgrades"
+	"MVSD   | Added UI Upgrades",
+	"MVSD   | Added Autoshoot v2"
 }
 
 for _, text in ipairs(updates) do
